@@ -8,6 +8,8 @@ div {
   position: absolute;
   cursor: default;
   font-family: sans-serif;
+  background-color: #f4f4f8;
+  border-radius: 15px;
 }
 
 .date {
@@ -22,7 +24,7 @@ div {
 
 .timeButton:hover {
   cursor: pointer;
-  background-color: grey;
+  background-color: #7ebf43;
 }
 
 .timeSpace {
@@ -30,19 +32,19 @@ div {
 }
 
 .booked-true {
-  background-color: darkslategray;
-  color: grey;
+  background-color: #d8d8d8;
+  color: #6b6b6b;
 }
 
 .booked-true:hover {
   cursor: default;
-  background-color: darkslategray;
+  background-color: #d8d8d8;
 }
 
 .buttonClicked {
-  background-color: green;
+  background-color: #0f8d0f;
 }
 
 .buttonClicked:hover {
-  background-color: green;
+  background-color: #0f8d0f;
 }
