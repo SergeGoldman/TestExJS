@@ -1,0 +1,47 @@
+div {
+  padding: 5px;
+  margin: 5px 0;
+  /* border: solid 1px black; */
+}
+
+.date {
+  text-align: center;
+}
+
+#calendar {
+  position: absolute;
+  cursor: default;
+}
+
+.timeButton {
+  padding: 5px;
+  margin: 5px 0;
+  border-radius: 10px;
+}
+
+.timeButton:hover {
+  cursor: pointer;
+  background-color: grey;
+}
+
+.timeSpace {
+  padding-left: 5px;
+}
+
+.booked-true {
+  background-color: darkslategray;
+  color: grey;
+}
+
+.booked-true:hover {
+  cursor: default;
+  background-color: darkslategray;
+}
+
+.buttonClicked {
+  background-color: green;
+}
+
+.buttonClicked:hover {
+  background-color: green;
+}
