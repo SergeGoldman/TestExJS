@@ -4,13 +4,14 @@ div {
   /* border: solid 1px black; */
 }
 
-.date {
-  text-align: center;
-}
-
 #calendar {
   position: absolute;
   cursor: default;
+  font-family: sans-serif;
+}
+
+.date {
+  text-align: center;
 }
 
 .timeButton {
